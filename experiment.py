@@ -50,11 +50,6 @@ if __name__ == "__main__":
 		seed = ns[np.random.randint(len(ns))]
 		founded = detect_community(G, seed, beta, epsilon, alpha)
 		nrelv, relv, irelv = evaluate_f1(c, founded)
-		
-		print "c: ", c.subgraph.nodes()
-		print "f: ", founded.subgraph.nodes()
-		print (nrelv, relv, relv)
-
 
 		nr += nrelv
 		r += relv
