@@ -1,7 +1,7 @@
 # community
 Community Analysis in Social Networks
 
-	. Finding a community from given a seed node
+Finding a community from given a seed node
 
 Dependencies
 
