@@ -4,7 +4,7 @@ Community Analysis in Social Networks
 Finding a community from given a seed node
 
 Dependencies
-
+- Numpy
 - NetworkX : http://networkx.github.io/
 
 Reference
